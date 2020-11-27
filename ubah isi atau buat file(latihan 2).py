@@ -12,5 +12,5 @@ try :
             break
     file = open(file2, "r")
     print(file.read())
-except ValueError :
+except FileNotFoundError :
     print("ada kesalahan penulisan")
